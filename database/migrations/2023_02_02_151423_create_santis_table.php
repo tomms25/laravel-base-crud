@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('santis', function (Blueprint $table) {
             $table->id();
 
-            $table -> string('nome', 32);
+            $table -> string('name', 32);
             $table -> string('place_of_birth', 32);
             $table -> date('given_blessing');
             $table -> integer('miracles_number')->unsigned();

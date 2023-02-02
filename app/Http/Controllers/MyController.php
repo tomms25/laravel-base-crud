@@ -15,6 +15,6 @@ class MyController extends Controller
             'santis' => $santis
         ];
 
-        return view('pages.home');
+        return view('pages.home', $data);
     }
 }
