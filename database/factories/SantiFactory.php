@@ -17,7 +17,10 @@ class SantiFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => fake()->firstName(),
+            'place_of_birth' => fake()->city(),
+            'given_blessing' => fake()->date(),
+            'miracles_number' => fake()->numberBetween(1, 100),
         ];
     }
 }

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
 
             $table -> string('nome', 32);
-            $table -> string('place_of-birth', 32);
+            $table -> string('place_of_birth', 32);
             $table -> date('given_blessing');
             $table -> integer('miracles_number')->unsigned();
 
