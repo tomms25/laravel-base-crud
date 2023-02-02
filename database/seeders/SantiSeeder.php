@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Santi;
 
 class SantiSeeder extends Seeder
 {
@@ -14,6 +15,6 @@ class SantiSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Santi::factory()->count(100)->create();
     }
 }
