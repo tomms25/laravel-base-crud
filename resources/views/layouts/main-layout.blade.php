@@ -10,9 +10,9 @@
 </head>
 <body>
 
-    @include('coponents.header')
+    @include('components.header')
     @yield('content')
-    @include('coponents.footer')
+    @include('components.footer')
     
 </body>
 </html>
